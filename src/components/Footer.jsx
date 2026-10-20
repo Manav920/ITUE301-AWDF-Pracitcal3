@@ -15,10 +15,10 @@ function Footer({ studentId, academicYear, email, githubUrl }) {
         <div className="footer-links">
           <span>Contact: <a href={`mailto:${email}`}>{email}</a></span>
           <span>•</span>
-          <span>GitHub: <a href={githubUrl} target="_blank" rel="noreferrer">24CS069Parth</a></span>
+          <span>GitHub: <a href={githubUrl} target="_blank" rel="noreferrer">24CS048Manav</a></span>
         </div>
         <p className="footer-copy">
-          &copy; {currentYear} Parth Patel. All rights reserved. Built with React & Vite.
+          &copy; {currentYear} Manav Lathiya. All rights reserved. Built with React & Vite.
         </p>
       </div>
     </footer>
